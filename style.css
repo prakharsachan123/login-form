@@ -1,0 +1,75 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(2.jpg);
+	background-size: cover;
+	
+}
+.box{
+	background:rgba(0,0,0,0.5);
+	color: red;
+	width: 400px;
+	height: 570px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	padding:auto,auto;
+}
+.user{
+	width: 100px;
+	height: auto;
+	border-radius: 50%;
+	position: absolute;
+	top:0%;
+	left: 35%;
+}
+form{
+	position: absolute;
+	top: 25%;
+	left: 20%;
+	font-weight: bold;
+}
+h2{
+	position: absolute;
+	top:18%;
+	left:15%; 
+}
+p{
+	font-size: 22px;
+}
+h3{
+	font-size: 20px;
+	color: red;
+	padding: 20px;	
+}
+.box input{
+	width: 100%;
+	margin-bottom: 5px;
+	background-color: transparent;
+}
+.box input[type="text"],.box input[type="password"]{
+	border:none;
+	background-color: transparent;
+	outline: none;
+	text-decoration: none;
+	height: 20px;
+	color:white;
+	padding: 10px;
+	border:1px solid white; 
+}
+.box input[type="submit"]{
+	border:1px solid white;
+	border-radius: 50%;
+	margin: 5px;
+	background-color: transparent;
+	outline: none;
+	height: 40px;
+	color: white; 
+	font-size: 30px;
+}
+.box input[type="submit"]:hover{
+	background-color: orange;
+	color :black;
+}
